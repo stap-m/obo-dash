@@ -34,9 +34,9 @@ ontologies:
       mirror_from: "https://openenergy-platform.org/ontology/oeo/releases/oeo-full.owl"
 prefer_base: True
 profile:
-  baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
+  baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt" 
   custom:
-    - "WARN\tfile:./sparql/missing_xrefs.sparql"
+    custom: - "WARN\tfile:./sparql/missing_xrefs.sparql"
 report_truncation_limit: 600
 redownload_after_hours: 0
 environment:
