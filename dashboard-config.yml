@@ -36,7 +36,7 @@ prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt" 
   custom:
-    custom: - "WARN\tfile:./sparql/missing_xrefs.sparql"
+    - "WARN\tfile:./sparql/missing_xrefs.sparql"
 report_truncation_limit: 600
 redownload_after_hours: 0
 environment:
