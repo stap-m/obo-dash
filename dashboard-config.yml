@@ -31,7 +31,7 @@ obo_score_weights:
 ontologies:
   custom:
     - id: oeo
-      mirror_from: "https://openenergy-platform.org/ontology/oeo/releases/1.13.0/oeo-full.owl"
+      mirror_from: "https://openenergy-platform.org/ontology/oeo/releases/v1.13.0/oeo-full.owl"
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt" 
