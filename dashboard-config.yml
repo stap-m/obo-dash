@@ -30,8 +30,8 @@ obo_score_weights:
     max_impact: 1
 ontologies:
   custom:
-    - id: tmp
-      mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
+    - id: oeo
+      mirror_from: "https://openenergy-platform.org/ontology/oeo/releases/oeo-full.owl"
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt" 
