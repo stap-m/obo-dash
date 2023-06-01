@@ -29,16 +29,16 @@ ontologies:
   - OEO
   - OEOALT
   changed: true
-  date: 2023-03-23 07:14:06.529629
+  date: 2023-06-01 05:55:08.845045
   metrics:
     'Axioms: Breakdown of axiom types':
-      AnnotationAssertion: 9187
+      AnnotationAssertion: 9221
       AnnotationPropertyDomain: 1
       AnnotationPropertyRangeOf: 1
       AsymmetricObjectProperty: 1
       ClassAssertion: 237
       DataPropertyDomain: 1
-      Declaration: 1856
+      Declaration: 1866
       DifferentIndividuals: 6
       DisjointClasses: 47
       DisjointObjectProperties: 1
@@ -50,14 +50,14 @@ ontologies:
       ObjectPropertyDomain: 72
       ObjectPropertyRange: 71
       SameIndividual: 7
-      SubAnnotationPropertyOf: 20
+      SubAnnotationPropertyOf: 26
       SubClassOf: 2365
       SubObjectPropertyOf: 99
       SymmetricObjectProperty: 1
       TransitiveObjectProperty: 2
-    'Axioms: Number of axioms': 14464
+    'Axioms: Number of axioms': 14514
     'Entities: % of entities reused': 100.0
-    'Entities: Number of annotation properties': 99
+    'Entities: Number of annotation properties': 108
     'Entities: Number of classes': 1416
     'Entities: Number of data properties': 1
     'Entities: Number of individuals': 220
@@ -89,20 +89,20 @@ ontologies:
     'Info: Syntax': RDF/XML Syntax
     'Info: Usage of namespaces in axioms':
       BFO: 786
-      IAO: 4798
-      OMO: 6
+      IAO: 4814
+      OMO: 18
       RO: 528
       UO: 1224
-      dc: 5
+      dc: 19
       dc11: 22
       foaf: 1
       obo: 26
-      oboInOwl: 2366
+      oboInOwl: 2373
       owl: 25
       prefix_unknown: 8588
       rdf: 125
-      rdfs: 1989
-      xsd: 6
+      rdfs: 1995
+      xsd: 7
     'Info: Which ontologies use it?': []
   mirror_from: https://openenergy-platform.org/ontology/oeo/releases/v1.13.0/oeo.owl
   namespace: oeo
